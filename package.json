@@ -1,0 +1,29 @@
+{
+  "name": "rfcdep",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "compilerOptions": {
+    "lib": [
+      "es2020.string"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hayatibis/rfcdep.git"
+  },
+  "author": "Hayati Ibis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hayatibis/rfcdep/issues"
+  },
+  "homepage": "https://github.com/hayatibis/rfcdep#readme",
+  "dependencies": {
+    "express": "4.16.3",
+    "axios": "0.19.2"
+  }
+}
